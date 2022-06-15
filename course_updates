@@ -1,0 +1,75 @@
+In shell scripting
+
+section 1
+course overview and download sources
+
+section 2
+what is scripting
+--shebang
+VARIABLES
+--assign command output to variable
+TESTS
+--test file operators
+--test string operators
+--test operator arithmetics operators
+--making decision-if statement,if/else/else,for loop
+POSITIONAL PARAMETERS
+
+SECTION 3
+EXIT STATUS AND RETIRN CODE
+--checking for exist status
+--&& and ||
+-- || = OR
+--the semicolon
+--exit command
+
+SECTION 4
+FUNCTION
+--creating a function
+--calling a function
+--positional parameters
+--variable scope
+--local variables
+--exit status(return code)
+
+SECTION 5
+--script checklist
+
+SECTION 6
+WILDCARDS
+--what is wild card
+--what is use of (*,?,[],[!])
+--name character class
+--matching wildcard patterns
+
+SECTION 7
+--case statements
+--why we use case statements and its logic
+
+SETION 8
+LOGGING
+--what is logs
+--what is syslog
+--logging with logger
+
+SECTION 9
+WHILE LOOPS
+
+
+
+IN ANSIBLE
+
+SECTION 1
+--introduction of course
+--introduction to ansible
+
+SECTION 2
+--setting up lab environment
+--creating vm
+--confinguring ipv4 address and adding hostnme
+--configuring hosts for local name resolution
+--installing ansible
+--setting up ssh keys relationship for root user
+
+
+
