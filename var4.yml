@@ -1,0 +1,15 @@
+---
+  - hosts: mhost1
+    gather_facts: False
+    vars:
+            users:
+                    - name: mark
+                      age: 35
+                    
+                    - name: lisa
+                      age: 30
+
+    tasks: 
+            - name: Displaying variable
+              debug:
+                      msg: "{{ users}}"
