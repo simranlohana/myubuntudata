@@ -1,0 +1,7 @@
+---
+- hosts: mhost1
+  gather_facts: True
+  tasks:
+          - name: Displaying facts variables
+            debug:
+                    msg: "{{ ansible_facys['devices']['sda']['partitions']['sda']['size']}}"
