@@ -1,0 +1,13 @@
+---
+-
+  hosts: all
+  become: True
+  gather_facts: False
+  tasks:
+          - name: Creating user
+            user:
+                    name: mark
+                    passwork: "{{ 'password' | password_harsh('shah512') }}"  
+                    state: present
+...                      
+
